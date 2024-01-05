@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react"
-import ImageCards from "./Components/ImageCards";
-
+import ImageCards from "./Components/ImageCards"
 
 function App() {
 
