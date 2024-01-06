@@ -37,7 +37,7 @@ function App() {
       <ImageSearch searchText={(text) => setTerm(text)} />
       <div className="container mb-20 mt-36 mx-auto transition-all">
         {!isLoading && images.length === 0 && (
-          <h1 text-5xl font-mono text-center mx-auto mt-32></h1>
+          <h1 className="text-3xl font-bold text-gray-600 md:text-5xl font-mono text-center mx-auto mt-44 md:mt-32">No result found</h1>
         )}
 
         {isLoading ? (
